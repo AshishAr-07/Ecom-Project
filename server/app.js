@@ -7,6 +7,7 @@ import productRouter from "./routes/productRouter.js";
 dotenv.config({ path: "./env" });
 dotenv.config();
 connectDB();
+
 var app = express();
 app.use(express.json());
 
