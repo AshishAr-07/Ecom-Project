@@ -16,8 +16,4 @@ app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/category", categoryRouter);
 app.use("/api/v1/product", productRouter);
 
-app.get("/", function (req, res) {
-  res.send("hello world");
-});
-
 app.listen(8000);
